@@ -1,9 +1,10 @@
-// import PartyButton from "./components/popperbutton";
-import Sidebar from "./components/sidebar";
+import PartyButton from "./components/popperbutton";
+// import Sidebar from "./components/sidebar";
 
 function App(){
   return(<>
-  {/* <PartyButton/> */}
-  <Sidebar/></>)
+  <PartyButton/>
+  {/* <Sidebar/> */}
+  </>)
 }
 export default App;
